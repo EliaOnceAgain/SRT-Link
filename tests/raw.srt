@@ -1,0 +1,196 @@
+1
+00:00:01,000 --> 00:00:02,000
+Unchanged-1
+
+2
+00:00:02,000 --> 00:00:03,000
+Unchanged-2
+
+3
+00:00:04,000 --> 00:00:05,000
+Unchanged-3
+
+4
+00:00:06,000 --> 00:00:07,000
+Same start case 1, same text
+
+5
+00:00:06,000 --> 00:00:07,000
+Same start case 1, same text
+
+6
+00:00:07,000 --> 00:00:08,000
+Same start case 1, text 1
+
+7
+00:00:07,000 --> 00:00:08,000
+Same start case 1, text 2
+
+8
+00:00:10,000 --> 00:00:12,000
+Same start case 2, same text
+
+9
+00:00:10,000 --> 00:00:11,000
+Same start case 2, same text
+
+10
+00:00:15,000 --> 00:00:17,000
+Same start case 2, text 1
+
+11
+00:00:15,000 --> 00:00:16,000
+Same start case 2, text 2
+
+12
+00:00:20,000 --> 00:00:22,000
+Same start case 3, same text
+
+13
+00:00:20,000 --> 00:00:24,000
+Same start case 3, same text
+
+14
+00:00:25,000 --> 00:00:27,000
+Same start case 3, text 1
+
+15
+00:00:25,000 --> 00:00:28,000
+Same start case 3, text 2
+
+16
+00:00:30,000 --> 00:00:34,000
+Start before case 1, same text
+
+17
+00:00:32,000 --> 00:00:34,000
+Start before case 1, same text
+
+18
+00:00:35,000 --> 00:00:39,000
+Start before case 1, text 1
+
+19
+00:00:37,000 --> 00:00:39,000
+Start before case 1, text 2
+
+20
+00:00:40,000 --> 00:00:43,000
+Start before case 2, same text
+
+21
+00:00:42,000 --> 00:00:44,000
+Start before case 2, same text
+
+22
+00:00:45,000 --> 00:00:47,000
+Start before case 2, text 1
+
+23
+00:00:46,000 --> 00:00:49,000
+Start before case 2, text 2
+
+24
+00:00:50,000 --> 00:00:54,000
+Start before case 3, same text
+
+25
+00:00:52,000 --> 00:00:53,000
+Start before case 3, same text
+
+26
+00:00:55,000 --> 00:00:59,000
+Start before case 3, text 1
+
+27
+00:00:56,000 --> 00:00:58,000
+Start before case 3, text 2
+
+28
+00:01:15,000 --> 00:01:20,000
+Start after end before, same text
+
+29
+00:01:12,000 --> 00:01:14,000
+Start after end before, same text
+
+30
+00:01:25,000 --> 00:01:30,000
+Start after end before, text 1
+
+31
+00:01:22,000 --> 00:01:24,000
+Start after end before, text 2
+
+32
+00:01:35,000 --> 00:01:39,000
+Start after with overlap, same text
+
+33
+00:01:32,000 --> 00:01:37,000
+Start after with overlap, same text
+
+34
+00:01:45,000 --> 00:01:49,000
+Start after with overlap, text 1
+
+35
+00:01:42,000 --> 00:01:47,000
+Start after with overlap, text 2
+
+36
+00:02:05,000 --> 00:02:10,000
+Start after and outreach, same text
+
+37
+00:02:02,000 --> 00:02:12,000
+Start after and outreach, same text
+
+38
+00:02:15,000 --> 00:02:20,000
+Start after and outreach, text 1
+
+39
+00:02:12,000 --> 00:02:22,000
+Start after and outreach, text 2
+
+40
+00:03:00,000 --> 00:03:01,000
+1 2 3 4 5 6 7 8 9 10
+
+41
+00:03:01,000 --> 00:03:01,200
+short duration
+
+42
+00:03:02,000 --> 00:03:02,200
+(hello world)
+
+43
+00:03:03,000 --> 00:03:03,200
+<hello world>
+
+44
+00:03:04,000 --> 00:03:04,200
+[hello world]
+
+45
+00:03:05,000 --> 00:03:05,200
+{hello world}
+
+46
+00:03:06,000 --> 00:03:06,200
+{[<(hello world)>]}
+
+47
+00:03:07,000 --> 00:03:08,200
+<font face='FACE SKIP 1'>hello world</font>
+
+48
+00:03:07,000 --> 00:03:08,200
+<font face='VALID-FACE'>hello world TEXT-SKIP hello world</font>
+
+49
+00:03:07,000 --> 00:03:08,200
+<font face='VALID-FACE'>goodbye...</font>
+
