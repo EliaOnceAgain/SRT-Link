@@ -25,8 +25,8 @@ LOG = logging.getLogger()
 
 def parse():
     parser = ArgumentParser(
-        description='SRT-Link: filter, merge, and order srt file sections',
-        formatter_class=lambda prog: HelpFormatter(prog, max_help_position=50)
+        description='SRT-Link: filter, merge, and order SubRip file sections',
+        formatter_class=lambda prog: HelpFormatter("srt_link", max_help_position=50)
     )
     parser.add_argument('input_file', nargs=1, help="srt input file path")
     parser.add_argument('-o', '--output', dest='output_file', required=False, help='output file [default=stdout]')

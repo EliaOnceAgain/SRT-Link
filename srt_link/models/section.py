@@ -86,8 +86,8 @@ class Section:
         |--------|------|-----|
          (prev+B) (A+B)   (A)
 
-        1. Create a new section that ends at the beginning of this section
-        2. Insert the created section before this section
+        1. Create a new section that ends at the beginning of section (A)
+        2. Delegate the created section backwards
         3. Handle the remaining overlap with this section if any
 
         Param:
