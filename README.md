@@ -66,7 +66,7 @@ $ cat input.srt
 
 3
 00:00:03,000 --> 00:00:04,000
-<font face="pass">does not support</font>
+<font face="pass">this media player does not support some media file</font>
 
 4
 00:00:04,000 --> 00:00:05,000
@@ -85,7 +85,7 @@ Not working as expected? Open an issue and upload a minimal SubRip file that rep
 with debug logs using the cli flag `--debug`
 
 
-## How to works
+## How it works
 The solution is based on a doubly linked list, here's an overview of the steps to add a new section to the linked list:
 - A new section is read from the input SubRip file
 - The section is filtered based on the provided configs
