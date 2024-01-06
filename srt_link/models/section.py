@@ -27,7 +27,7 @@ class Section:
         self.next = _next
         self.sts = sts
         self.ets = ets
-        self.body = body.strip("\n").replace("\n\n", "\n")
+        self.body = body.strip("\n")
         self.skip = skip
 
     @property
@@ -257,7 +257,7 @@ class Section:
         return "{sts} --> {ets}\n{body}".format(
             sts=self.sts.isoformat(timespec="milliseconds").replace(".", ","),
             ets=self.ets.isoformat(timespec="milliseconds").replace(".", ","),
-            body=self.body.lstrip("\n")
+            body=self.body.lstrip("\n").replace("\n\n", "\n")
         )
 
     @classmethod
