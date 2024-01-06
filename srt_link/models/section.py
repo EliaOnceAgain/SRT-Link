@@ -27,7 +27,7 @@ class Section:
         self.next = _next
         self.sts = sts
         self.ets = ets
-        self.body = body.strip("\n")
+        self.body = body.strip("\n").replace("\n\n", "\n")
         self.skip = skip
 
     @property
