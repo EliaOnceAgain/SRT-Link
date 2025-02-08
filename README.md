@@ -6,7 +6,11 @@ It is written in Python, requires only standard libraries and no 3rd party depen
 
 *Tested and developed on python-3.10*
 
-git clone:
+```shell
+pip install srt-link
+```
+
+or git clone:
 ```shell
 git clone https://github.com/EliaOnceAgain/SRT-Link.git
 cd SRT-Link/
